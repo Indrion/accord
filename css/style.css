@@ -34,3 +34,15 @@
     color: #860da6;
     font-size: 26px;
 }
+.ui-icon{
+    border-radius: 5px;
+    background-color: #860da6;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+}
+/*.ui-state-active .ui-icon, .ui-button:active .ui-icon{*/
+    /*border-radius: 2px;*/
+    /*background-color: #860da6;*/
+    /*background-image: none;*/
+/*}*/
