@@ -26,23 +26,43 @@
     color: #252525;
     font-size: 21px;
 }
-.ui-widget .ui-state-active{
+
+.ui-accordion .ui-accordion-header{
     color: #860da6;
     font-size: 26px;
+    padding-left: 20px;
 }
-.ui-widget .ui-state-default{
-    color: #860da6;
-    font-size: 26px;
-}
-.ui-icon{
-    border-radius: 5px;
+/*.ui-icon{*/
+    /*border-radius: 5px;*/
+    /*background-color: #860da6;*/
+    /*width: 5px;*/
+    /*height: 5px;*/
+    /*margin-right: 10px;*/
+
+.ui-accordion .ui-accordion-header:before{
+    content: "";
+    display: inline-block;
     background-color: #860da6;
-    width: 5px;
-    height: 5px;
+    height: 4px;
+    width: 4px;
+    border-radius: 5px;
+    position: relative;
+    top: -8px;
     margin-right: 10px;
 }
-/*.ui-state-active .ui-icon, .ui-button:active .ui-icon{*/
-    /*border-radius: 2px;*/
-    /*background-color: #860da6;*/
-    /*background-image: none;*/
-/*}*/
+.ui-icon{
+    float: right;
+    width: 10px;
+    height: 10px;
+    border: solid 2px black;
+    border-left: none;
+    border-bottom: none;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    transform: rotate(135deg);
+    background: none;
+}
+.ui-icon, .ui-widget-content .ui-icon{
+    transform: rotate(45deg);
+    background: none;
+}
