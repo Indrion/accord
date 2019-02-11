@@ -9,3 +9,28 @@
     max-width: 1140px;
     margin: auto;
 }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border-radius: 0;
+    background-color: #fce7f2;
+    border: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border-radius: 0;
+    background-color: #fef5fa;
+    border: none;
+}
+.ui-widget-content{
+    background-color: #fef5fa;
+    border: none;
+    border-radius: 0;
+    color: #252525;
+    font-size: 21px;
+}
+.ui-widget .ui-state-active{
+    color: #860da6;
+    font-size: 26px;
+}
+.ui-widget .ui-state-default{
+    color: #860da6;
+    font-size: 26px;
+}
