@@ -50,6 +50,9 @@
     top: -8px;
     margin-right: 10px;
 }
+.ui-state-hover .ui-icon{
+    background: none;
+}
 .ui-icon{
     float: right;
     width: 10px;
@@ -60,9 +63,33 @@
 }
 .ui-state-active .ui-icon, .ui-button:active .ui-icon{
     transform: rotate(135deg);
-    background: none;
+    background: transparent;
 }
 .ui-icon, .ui-widget-content .ui-icon{
     transform: rotate(45deg);
-    background: none;
+    background: transparent;
 }
+.ui-icon-triangle-1-s{
+    background-position: 0;
+}
+
+/*.ui-icon{*/
+    /*position: absolute;*/
+    /*right: 10px;*/
+    /*top: 34px;*/
+    /*width: 32px;*/
+    /*height: 18px;*/
+/*}*/
+/*.ui-state-active .ui-icon, .ui-button:active .ui-icon{*/
+    /*background-image: url("../images/arrow.png");*/
+    /*transform: rotate(90deg);*/
+/*}*/
+/*.ui-icon, .ui-widget-content .ui-icon{*/
+    /*background-image: url("../images/arrow.png");*/
+/*}*/
+/*.ui-icon-triangle-1-s{*/
+    /*background-position: 0px;*/
+/*}*/
+/*.ui-icon-triangle-1-e{*/
+    /*background-position: 0px;*/
+/*}*/
